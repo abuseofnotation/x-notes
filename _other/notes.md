@@ -15,17 +15,24 @@ Catherina: an upper-class girl who started receiving panic attacks at 12th grade
 Catherina's friends
 ---
 
+Nina: An upper class girl who tried and succeeded to juggle between parties, relationships and school - had a huge panic attack that led her to the sanatorium, and she is hoping to recover soon.
+
 Anna: A friend of Catherine from school who always copies her, but is much more immature than her. A troubled girl who rejects everyone and lives only through books.
 
 Sisi and Zenka: Girls who are accepted because they have issues with drugs but feel no need to get high in the sanatorium and instead have sex with each other.
 
+
 The bookworms
 ---
 
-Peter: Studied in the same school as Maxim, a few years younger than him, strives to get better and go back to school, repressed by his parents.
+Peter: Nerd, who is a few years younger than Maxim, strives to get better and go back to school, dreams to be an IT CEO, repressed by his parents.
+
+
 
 Staff
 ---
+
+Ivan: A boy from the village next to the sanatorium who is doing the cleaning.
 
 Alexandra: An older woman, who was accepted at the sanatorium when young. Currently she does not have any issues, but she is staying there for the freedom, (and dating patients regularly).
 
@@ -36,7 +43,6 @@ Stella: The manager of the sanatorium who is only concerned about the image of t
 Jane: A monk who leads zen practices in order to relax the patients
 
 Dora: A very promiscuous nurse.
-
 
 Visitors
 ---
@@ -50,4 +56,6 @@ Chapter ideas
 
 - Alex trains maxim to become a runner like him in order for Max to feel more confident, but he actually can't as Alex beats him up at every conceivable exercise. 
 
-
+Themes
+===
+ableism
