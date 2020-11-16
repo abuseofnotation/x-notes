@@ -28,8 +28,6 @@ Peter: Nerd, who is a few years younger than Maxim, strives to get better and go
 Staff
 ---
 
-Ivan: A boy from the village next to the sanatorium who is doing the cleaning.
-
 Alexandra: An older woman, who was accepted at the sanatorium when young. Currently she does not have any issues, but she is staying there for the freedom, (and dating patients regularly).
 
 Nic: Studied the same school as Maxim, but older than him, former patient as well, also staying for the freedom.
