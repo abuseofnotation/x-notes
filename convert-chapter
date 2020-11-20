@@ -6,13 +6,9 @@ echo $2 >> _chapters/$1.md
 echo "====" >> _chapters/$1.md
 echo "" >> _chapters/$1.md
 
+
 # insert the first lines of all fragments, serving as a heading
 
-
-for file in $1/*
-do 
-  spellchecker -f $file --dictionaries _other/dictionary.txt
-done 
 
 for file in $1/*
 do 
