@@ -1,4 +1,0 @@
-for file in $1/*
-do 
-  spellchecker -f $file --dictionaries _other/dictionary.txt
-done 
