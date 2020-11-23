@@ -9,8 +9,8 @@ I was worried whether I sounded authentic, although what does authenticity even 
 
 "You would be surprised, but I actually *want* to fall. I *want* to get hurt. Without hurt, your body loses contact with the environment and you become lame."
 
+"It is all very limiting. Reality is limiting, living is like participating in a race that there is no way for you to win, but at the same time you have to participate in."
+
 I could not remove my self-doubt (and neither I wanted to), and the dreadful feeling that my my life and everything I can possibly say or do was not worth anything, but if I tried to, I felt that I could lessen the feeling of pretence that I actually felt was at its (the self-doubt's) root. After all, why a person would even bother to feel self-doubt if they didn't take themselves too seriously in the first place? We only doubt the things that you rely on, and that is clearly not only because there is no reason for us to doubt the rest, it is just that most of the time we don't bother ourselves with doing so. I guess other people were doing it just to keep their sanity? If so, then Anna's ironic jesture was probably the best reaction to everything that I did in the last year (althought she herself was one hundred percent the same as me), in that respect I was no more brilliant than a person who attempts to build a house in a swamp and thinks that the reason other people missed that lovely spot of theirs was their superior perceptions and judgement.
 
 I am maybe so drawn to my fantasies in my private time, simply because in the rest of the time I was fulfilling some other people's fantasies, I got used to it so much that that was all I did. Even with Cathy, I realise what everybody else does, that I am copying her in every aspect of her life, but it is not so much because I admire her, as they think, as it is because I want *her* to feel that there is someone who understands her, I want her to not feel alone."
-
-
