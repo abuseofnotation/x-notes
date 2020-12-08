@@ -4,13 +4,13 @@ Characters
 Main
 ---
 
-Alex:  (straightforward) Former athlete, prevented from practicing due to an injury. Has panic attacks. Aggessive and loud.
+Alex: (confident) (single-minded) (extroverted) Former athlete, prevented from practicing due to an injury. Has panic attacks. Aggessive and loud.
 
-Maxim (X): (naughty) a timid mathematician, who is searching for his identity among the different people in the sanatorium.
+Maxim (X): (unconfident) (naughty) (extroverted) a timid mathematician, who is searching for his identity among the different people in the sanatorium.
 
-Catherina: (straightforward) An upper class girl who tried and succeeded to juggle between parties, relationships and school - had a huge panic attack that led her to the sanatorium, where she gradually decided to leave all that and just have fun
+Catherina: (unconfident) (single-minded) (introverted) An upper class girl who tried and succeeded to juggle between parties, relationships and school - had a huge panic attack that led her to the sanatorium, where she gradually decided to leave all that and just have fun
 
-Anna: (naughty) A friend of Catherine from school who always copies her, but is much more immature than her. A troubled girl who rejects everyone and lives only through books. In the sanatorium she strives to get better
+Anna: (confident) (naughty) (introverted) A friend of Catherine from school who always copies her, but is much more immature than her. A troubled girl who rejects everyone and lives only through books. In the sanatorium she strives to get better
 
 Catherina's friends
 ---
