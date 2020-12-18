@@ -6,11 +6,11 @@ Main
 
 Alex: (confident) (single-minded) (introverted) Former athlete, prevented from practicing due to an injury. Has panic attacks. Aggessive and loud.
 
-Maxim (X): (unconfident) (naughty) (extroverted/creative) a timid mathematician, who is searching for his identity among the different people in the sanatorium.
-
 Catherina: (unconfident) (single-minded) (extroverted/creative) An upper class girl who tried and succeeded to juggle between parties, relationships and school - had a huge panic attack that led her to the sanatorium, where she gradually decided to leave all that and just have fun
 
-Anna: (confident) (naughty) (introverted) A Gruzian friend of Catherine from school who always copies her, but is much more immature than her. A troubled girl who rejects everyone and lives only through books. In the sanatorium she strives to get better
+Maxim (X): (unconfident) (naughty) (extroverted/creative) a timid mathematician, who is searching for his identity among the different people in the sanatorium.
+
+Anna: (confident) (naughty/non-conformist) (introverted) A Gruzian friend of Catherine from school who always copies her, but is much more immature than her. A troubled girl who rejects everyone and lives only through books. In the sanatorium she strives to get better
 
 
 (confident) (single-minded) (extroverted) 
@@ -28,8 +28,7 @@ Nina: an middle-class girl who started receiving panic attacks at 12th grade whi
 The bookworms
 ---
 
-Peter: Nerd, who is a few years younger than Maxim, strives to get better and go back to school, dreams to be an IT CEO, repressed by his parents.
-
+Peter: Nerd, who is a few years younger than Maxim, strives to get better and go back to school, dreams to be an IT CEO, repressed by his parents and filled with hate.
 
 Staff
 ---
