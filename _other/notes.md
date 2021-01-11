@@ -48,11 +48,12 @@ Chapter ideas
 ===
 
 - Alex trains maxim to become a runner like him in order for Max to feel more confident, but he actually can't as Alex beats him up at every conceivable exercise. 
+
 - Anna goes to commit eutanasia and Dimitar sends AMX to fetch her. At the end they have to convinve them she is like them, so she can come with them X convinces her to identify with him specifically.
 
 - Maxim connects with a lot of people from different social circles only to get into fights with them later. At the end he organizes a party where all those people meet each other for the first time.
 
-- Anna tries to kill herself but she cannot get her suicide note right
+- Cathy tries to kill herself but she cannot get her suicide note right
 
 - Peter starts taking pills in order to strenghten his mind, before a mathematical competition.
 
