@@ -1,4 +1,5 @@
 Anna's proposition/Anna and Cathy
+
 I made a pause to gather my thoughts and stared back to Anna whom I had almost forgotten I was speaking to, but who was nevertheless still listening to me with what it looked like fascination. I made up my mind about what I wanted to say next, but didn't proceed, as she (although silent) looked like she wanted to tell me something. I stared back to Alex and Catherine for a few seconds and then back at her to give her time.
 
 "OK, I think I am ready to sleep with you!"
