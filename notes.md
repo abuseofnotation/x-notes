@@ -6,11 +6,11 @@ Main
 
 Alex: (self-assetive) (single-minded) (introverted) Former athlete, prevented from practicing due to an injury. Has panic attacks. Aggessive and loud.  
 
-Catherina: (self-assertive) (single-minded) (extroverted/creative) An upper-class girl who tried and succeeded to juggle between parties, relationships and school - had a huge panic attack that led her to the sanatorium, where she gradually decided that her thing was actually to leave all ambitions behind and to just have as much fun as possible. 
+Catherina: (unconfident) (single-minded) (extroverted/creative) An upper-class girl who tried and succeeded to juggle between parties, relationships and school - had a huge panic attack that led her to the sanatorium, where she gradually decided that her thing was actually to leave all ambitions behind and to just have as much fun as possible. 
 
 Maxim (X): (unconfident) (naughty/non-conformist) (extroverted/creative) a timid mathematician, who is searching for his identity among the different people in the sanatorium.
 
-Anna: (unconfident) (naughty/non-conformist) (introverted) A friend of Catherine from school who always copies her, but is much more immature than her. A troubled girl who rejects everyone and lives only through books. In the sanatorium she strives to get better
+Anna: (self-assertive) (naughty/non-conformist) (introverted) A friend of Catherine from school who always copies her, but is much more immature than her. A troubled girl who rejects everyone and lives only through books. In the sanatorium she strives to get better
 
 
 (self-assertive) (single-minded) (extroverted) 
@@ -59,6 +59,8 @@ Chapter ideas
 
 - The stranger who kissed me
 
+- AMX tricks Dimitar into doing something obscene in order to have him in their pocket
+
 Themes
 ===
 
@@ -85,8 +87,10 @@ A virgin's kink
 
 Plot lines
 ===
-Going on the top of the mountain
-Ann's seisures
-Nina
 
+Going on the top of the mountain
+
+Ann's seisures
+
+Nina
 

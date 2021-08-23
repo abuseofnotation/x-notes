@@ -17,18 +17,19 @@ I was worried whether I sounded authentic, although what does authenticity even 
 And when we (me and Anna) eventually started kissing we did it out of boredom, or at least *I* think that this is why we did it, although I can say the same thing for most things that I do. Her expression was serious as she removed her sweater, as was mine I hope, although it didn't really matter even if it was goofy, as for some reason I didn't really care how I looked to her. Which was weird - if I had known her in my normal life as my classmate or something, I would have probably hopelessly fallen in love with her and would have spent hours just selecting the books that I would "accidentally" drop when I pass near her at the corridor. But at that night when I was already in her bedroom, her lust seemed for me dull, even appauling. The added complexity coming from the dialogues that we had before made her persona too loaded for me to perceive her as just a sex object and my lack of confidence prevented me from turning myself on from her as a real person, with thoughts like "am I fit to be this girl's first lover" rushing down my head and then my brain replaying various memories from my previous (failed) relationships I felt our world (the one me and Dana created) being collapsing into the real one. I wanted to make it stop (I was not sure whether I should do it, but I didn't want for my insecurities to interfere with my decision).
 
 
-
 Some people like blond girls, I like you.
 
 
 I am maybe so drawn to my fantasies in my private time, simply because in the rest of the time I was fulfilling some other people's fantasies, I got used to it so much that that was all I did. Even with Cathy, I realise what everybody else does, that I am copying her in every aspect of her life, but it is not so much because I admire her, as they think, as it is because I want *her* to feel that there is someone who understands her, I want her to not feel alone."
 
 
-And Anna was very good at this stuff, able to immerce herself in a fantasy for seconds and then to forget about it in an equally hastly manner, in order to jump to another one.
-
 
 At that point I came across a distinction between me and Alex, that I thought was interesting- that I had spend my life falling in love with women, while he spent it fucking them. 
 
+Cathy's tactic was that she never ever tried to reconcile the real and the ideal and be pragmatic instead, i.e. concentrating on the sexual aspect of love, as opposed to searching for its meaning, and in school as I mentioned, she were concentrating on giving the teachers what they wanted, instead of trying to understand the disciplines better than they did, which, kids, is never a good idea if your aim is good grades. 
+
+The feeling that I ended up experiencing towards her (although also strong) was different - if vanilla romantic love had for me the effect of an atom bomb dropped, as it indeed did, the way Ann made me feel was more like a wildfire - there was an air of mystery in it (which you never know how it started nor when and now it would end), and also an air of permanence, as some of the last remains of that fire burned remained long after both her and me (the person that I was then) were gone, illuminating my whole world. 
 
 
-Cathy's tactic was that she never ever tried to reconcile the real and the ideal and be pragmatic instead, i.e. concentrating on the sexual aspect of love, as opposed to searching for its meaning, and in school as I mentioned, she were concentrating on giving the teachers what they wanted, instead of trying to understand the disciplines better than they did, which, kids, is never a good idea if your aim is good grades. So she basically scraped the ideal in order to get closer to it. 
+As I was talking, Anna finally sat closer to me and tried to establish some contact with me, but I blocked her. I tried to convince myself that I didn't care, although if I had known her in my normal life as my classmate or something, I would have probably hopelessly fallen in love with her and would have spent hours just selecting the books that I would "accidentally" drop when I pass near her at the corridor. 
+
