@@ -13,14 +13,11 @@ I was worried whether I sounded authentic, although what does authenticity even 
 "It is all very limiting. Reality is limiting, living is like participating in a race that there is no way for you to win, but at the same time you have to participate in."
 
 
-
 And when we (me and Anna) eventually started kissing we did it out of boredom, or at least *I* think that this is why we did it, although I can say the same thing for most things that I do. Her expression was serious as she removed her sweater, as was mine I hope, although it didn't really matter even if it was goofy, as for some reason I didn't really care how I looked to her. Which was weird - if I had known her in my normal life as my classmate or something, I would have probably hopelessly fallen in love with her and would have spent hours just selecting the books that I would "accidentally" drop when I pass near her at the corridor. But at that night when I was already in her bedroom, her lust seemed for me dull, even appauling. The added complexity coming from the dialogues that we had before made her persona too loaded for me to perceive her as just a sex object and my lack of confidence prevented me from turning myself on from her as a real person, with thoughts like "am I fit to be this girl's first lover" rushing down my head and then my brain replaying various memories from my previous (failed) relationships I felt our world (the one me and Dana created) being collapsing into the real one. I wanted to make it stop (I was not sure whether I should do it, but I didn't want for my insecurities to interfere with my decision).
 
 
 Some people like blond girls, I like you.
 
-
-I am maybe so drawn to my fantasies in my private time, simply because in the rest of the time I was fulfilling some other people's fantasies, I got used to it so much that that was all I did. Even with Cathy, I realise what everybody else does, that I am copying her in every aspect of her life, but it is not so much because I admire her, as they think, as it is because I want *her* to feel that there is someone who understands her, I want her to not feel alone."
 
 
 
