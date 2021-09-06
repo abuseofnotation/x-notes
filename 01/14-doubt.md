@@ -1,12 +1,8 @@
-Soon we heard a knock on the window - Cathy was at our terrace smoking cigarettes and she already had a half-full ashtray in front of her. Anna, who was already wearing her normal clothes again, opened the door and let her in and as soon as she entered she started talking, retelling us some news report that she had read about how the leader of some pseudo-nazi party is gaining more and more followers and how they (I didn't know if they were a man or a woman) might have a very good result at the next election. She seemed sad at first, but she quickly got back to her normal self (the one I knew from a few hours ago) as Anna was listening to her and encouraging her to tell us more.
+Soon we heard a knock on the window - Cathy was at our terrace smoking cigarettes and she already had a half-full ashtray in front of her. Anna, who was already wearing her normal clothes again, opened the door and let her in, and as soon as she entered she started talking, retelling us some news report that she had read about how the leader of some pseudo-nazi party is gaining more and more followers and how they (I didn't know if they were a man or a woman) might have a very good result at the next election. She seemed sad at first, but she quickly got back to her normal self (the one I knew from a few hours ago) as Anna was listening to her and encouraging her to tell us more.
 
-"Oh, but you are just doing it to cheer me up," Cathy said, when she saw my featureless expression which reminded her that, like me, Ann had zero interest in politics and the like, "Forget it, let's talk about something else!" and she immediately began a second topic telling us about how her evening with Alex went. It turned out that Alex was very tired from climbing the mountain, so he fell asleep after a really short sex session and she couldn't wake him up any more, even when she touched him and turned on the TV.
+"Oh, but you are just doing it to cheer me up," Cathy said, when she saw my featureless expression which reminded her that, like me, Ann had zero interest in politics and the like, "let's talk about something else!" And she immediately began a second topic telling us about how her evening with Alex went. It turned out that Alex was so tired from climbing that mountain that he fell asleep after a really short sex session and she couldn't wake him up any more, even even after she touched him and turned on the TV. 
 
-And what about the moans
-
-That was probably me masturbating, Cathy smiled
-
-Sounds like you were having much fun.
+"Sounds like you had much fun though?" I muttered and then went on to explain that we heard some noises, but Cathy explained to me that what we heard was her masturbating, next to her sleeping boyfriend.
 
 It's important to have fun, Cathy said. But you must put some work into it, not just expect it to happen
 
