@@ -18,6 +18,7 @@ And when we (me and Anna) eventually started kissing we did it out of boredom, o
 
 Some people like blond girls, I like you.
 
+I want to unwrap you like a present
 
 At that point I came across a distinction between me and Alex, that I thought was interesting- that I had spend my life falling in love with women, while he spent it fucking them. 
 

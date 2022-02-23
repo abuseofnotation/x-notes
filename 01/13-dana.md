@@ -23,3 +23,15 @@ Why were they were doing it really? To buy some comfort, like how catholic pries
 And to go back to my main point (in case anyone remembers what I am talking about), the existense of the perverse, (especially the perverse that is self aware) exposes the hypocricy of those people's whole endeavour in a way which they just could not bear. And as a result they do what they can to stop it. And yes, a lot of those people are parents.
 
 Dana was getting into the fantasy of her being a teacher and me being her brilliant student.
+
+
+
+
+By the time I was having these thoughts we were already finished, so I decided to involve Anna in the conversation.
+
+"It seems like the concept of vanilla, like vanilla sexual taste only exists so some people to obscure the choices that they are making and make it seem that they made no choice at all (they did it just because they are "normal" and they always act in the way that is done in principle). Why are they doing it?" Her response was quick. "I suppose they just want to buy some comfort, like how catholic priests were offering rich people eternal salvation for a few gold coins - lame but better than nothing, especially if you already have the coins." 
+
+"Yeah, but why do they need to do that. All of your tastes, your choices, are actually just a manifestation of our will. If you aren't being deliberate about them, they are actually non-choices.
+
+"Hm, then, shouldn't it at least be easy to make them, or rather not make them, but experience them." And then she added an "I don't know," at the end, and did it in a manner which was unusually swiftly for her, as if she didn't want me to spend too much time thinking about what she said and thinking that she knew what she was talking about. But, although somewhat successful at erazing her words from my mind, her remark never erazed the feelings that those words provoked. And now in hindsight, it looks as if that was just what she had intended.
+
