@@ -1,6 +1,6 @@
 ---
 title: The knapsack problem
-subtitle: "How to write a book // P and NP // leaving home"
+subtitle: "How to write a book / P and NP / leaving home"
 layout: one
 ---
 
@@ -13,7 +13,4 @@ Checking if a given set of objects constitutes a solution to the knapsack proble
 
 Most people think that there is not such solution (that P is not equal to NP), and that is indeed the logical conclusion of the fact that no one managed to prove otherwise for more than 50 years. But on the other hand, it seems that there must be, right? Because else what is this weird problem doing in the middle of the computation complexity ladder, neither here nor there? It must be there for a reason. Because of this, I still think that it's worth trying to solve the Knapsack problem, and I sometimes do that after school or during it. This is a like a hobby for me. I started doing it before I knew most of this stuff, actually. But even after understanding it and knowing that it is probably impossible, I am still a believer - one thing that I know is that, in math, nothing is coincidental, so if it looks like there is a way, then there must be one.
 
-A real-live scenario where I was able to test this problem was when I left my family home for the first time and I had to fit all my possesions that I wanted to take with me in a backpack. I stayed up almost all night rearranging all the objects in it and trying to find the most efficient way to fill it. However, althought I didn't realize this, 
-
-
-at that time I had bigger problems than what is the most efficient way to fill my backpack. 
+A real-live scenario where I thought that I'd test this problem was when I left my family home for the first time and I had to fit all my possesions that I wanted to take with me in a backpack. I decided that I would take all the objects that I wanted to take and to try many different combinations untill I find the most efficient one, however, I abandoned this plan even before I started packing, as a thought came to me which was quite depressing - even if I knew how to solve the knapsack problem, I wouldn't help me much with packing my belongings and deciding what to take. As hugely important this problem was, it suddenly seemed miniscule, even compared to my little dillemas, the attachments that I had to some of my stuff, and my *lack of information* as to the place where I was going. 

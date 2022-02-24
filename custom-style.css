@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'typewriter';
+    src: url('fonts/nimbus-mono/nimbusmono-regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'typewriter';
+    src: url('fonts/nimbus-mono/nimbusmono-bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'typewriter';
+    src: url('fonts/nimbus-mono/nimbusmono-boldoblique.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'typewriter-heading';
+    src: url('fonts/bptypewrite/BPtypewrite.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'typewriter-small-heading';
+    src: url('fonts/bptypewrite/BPtypewriteItalics.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+
+    font-family: 'museo';
+    src: url('fonts/exljbris - Museo-500.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+  font-family: 'typewriter';
+}
+
+h1 {
+  font-family: 'typewriter-heading';
+  font-size: 25px;
+}
+
+h1 a {
+  color: black;
+}
+
+h2 { 
+  font-family: 'typewriter-small-heading';
+  font-size: 25px;
+}
+
+
+
+
+@font-face {
+    font-family: 'alex';
+    src: url('fonts/characters/alex.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+.voice-alex {
+  font-family: 'alex';
+  font-size: 30px;
+  line-height: 0.5;
+}
+
+@font-face {
+    font-family: 'maxim';
+    src: url('fonts/characters/maxim.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+.voice-maxim {
+  font-family: 'maxim';
+  font-size: 30px;
+  line-height: 0.5;
+}
+
+
+

@@ -6,7 +6,7 @@
 name: Thoughts of X
 
 # Short bio or description (displayed in the header)
-description: This is a book I wrote
+description: 
 #
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
@@ -24,12 +24,9 @@ excerpt_separator: <!--more-->  # you can specify your own separator, of course.
 baseurl: "/thoughts-of-x"
 
 collections:
-  01:
+  one:
     output: true
-    permalink: 01/:path/
-  02:
-    output: true
-    permalink: 02/:path/
+    permalink: one/:path/
 
 
 #
@@ -40,10 +37,10 @@ highlighter: rouge
 permalink: /:title/
 
 # The release of Jekyll Now that you're using
-version: v1.1.0
+version: v4.2.0
 
 # Use the following plug-ins
-gems:
+plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed
 
