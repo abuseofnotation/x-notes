@@ -1,14 +1,14 @@
 ---
 layout: default
 ---
+  <h1>Full contents</h1>
 
-<div class="container">
+  <h2>Part One</h2>
   {% for post in site.one %}
     <article class="post">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-      <h2>{{ post.subtitle }}</h2>
+      <p><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      <i>{{ post.subtitle }}</i></p>
 
     </article>
   {% endfor %}
-</div>

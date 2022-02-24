@@ -1,7 +1,6 @@
 @font-face {
     font-family: 'typewriter';
-    src: url('fonts/nimbus-mono/nimbusmono-regular.otf') format('opentype');
-    font-weight: normal;
+    src: url('fonts/nimbus-mono/nimbusmono-regular.otf') format('opentype'); font-weight: normal;
     font-style: normal;
 }
 @font-face {
@@ -19,44 +18,18 @@
 
 @font-face {
     font-family: 'typewriter-heading';
-    src: url('fonts/bptypewrite/BPtypewrite.otf') format('opentype');
+    src: url('fonts/bptypewrite/BPtypewriteStrikethrough.ttf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'typewriter-small-heading';
-    src: url('fonts/bptypewrite/BPtypewriteItalics.otf') format('opentype');
+    src: url('fonts/bptypewrite/BPtypewrite.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
-@font-face {
-
-    font-family: 'museo';
-    src: url('fonts/exljbris - Museo-500.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-body {
-  font-family: 'typewriter';
-}
-
-h1 {
-  font-family: 'typewriter-heading';
-  font-size: 25px;
-}
-
-h1 a {
-  color: black;
-}
-
-h2 { 
-  font-family: 'typewriter-small-heading';
-  font-size: 25px;
-}
 
 
 
@@ -71,6 +44,7 @@ h2 {
   font-family: 'alex';
   font-size: 30px;
   line-height: 0.5;
+  color: blue;
 }
 
 @font-face {
@@ -83,7 +57,80 @@ h2 {
   font-family: 'maxim';
   font-size: 30px;
   line-height: 0.5;
+  color: grey;
 }
 
 
 
+
+body {
+  font-family: 'typewriter';
+text-shadow: 0px 0px 1px black;
+}
+
+h1 {
+  font-family: 'typewriter-heading';
+  font-size: 35px;
+}
+
+h1 a {
+  color: black;
+}
+
+h2 { 
+  font-family: 'typewriter-small-heading';
+  font-size: 25px;
+}
+
+
+
+
+p:nth-child(odd) {
+transform: rotateZ(2deg);
+}
+p:nth-child(even) {
+transform: rotateZ(-1deg);
+}
+
+
+.header .container {
+transform: rotateZ(2deg);
+}
+.container {
+transform: rotateZ(-1deg);
+}
+
+
+.container{
+  background-color: white;
+  color: black;
+  transform: perspective(17px); 
+}
+.footer{
+  background-color: white;
+  color: black;
+  font-size: 20px;
+}
+
+.header a {
+  color: black;
+  text-decoration: none;
+}
+.footer a {
+  color: black;
+}
+
+.content {
+  background-image: url(back.jpg);
+  background-size: 1000px;
+  background-repeat: no-repeat;
+  padding: max( 70px, 2%);
+}
+
+a {
+  color: black;
+  cursor: pointer;
+}
+.button {
+  font-family: 'typewriter-small-heading';
+}
