@@ -43,8 +43,9 @@ Dora: A very promiscuous nurse.
 Visitors
 ---
 
-Chapter ideas
+Plots 
 ===
+
 - Alex trains maxim to become a runner like him in order for Max to feel more confident, but he actually can't as Alex beats him up at every conceivable exercise. 
 - Anna goes to commit eutanasia and Dimitar sends AMX to fetch her. At the end they have to convinve them she is like them, so she can come with them X convinces her to identify with him specifically.
 
@@ -54,11 +55,22 @@ Chapter ideas
 
 - Peter starts taking pills in order to strenghten his mind, before a mathematical competition.
 
-- The stranger who kissed me
-
 - AMX tricks Dimitar into doing something obscene in order to have him in their pocket
 
-Ides
+Paragraphs
+===
+
+- The stranger who kissed me
+
+- Fucking girls with notebooks 
+
+- How incompetent programmers become project managers 
+
+- The lost second when time is adjusted
+
+- Quantum suicide
+
+Ideas
 ===
 
 Ann's seisures
@@ -74,9 +86,6 @@ capitalism
 
 climate change
 
-Fucking girls with notebooks 
-
-How incompetent programmers become project managers 
 
 Titles
 ===
