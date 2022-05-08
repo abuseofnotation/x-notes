@@ -13,35 +13,24 @@
     </head>
 
     <body>
-      <div class="header">
-        <div class="container">
+      <div class="header ">
+          <a href="{{site.baseurl}}/"></a>
+          <canvas class="art" width="800px" height="200px" data-pixel="10" data-colors="gray,darkgray,ghostwhite">
+            <splasher data-size="2" data-map="constant" data-params="10"></splasher>
+            <splasher data-size="5" data-map="cornerProximity" data-params="3"></splasher>
+            <splasher data-size="5" data-map="cornerProximity" data-params="3"></splasher>
+            <splasher data-size="5" data-map="cornerProximity" data-params="3"></splasher>
+          </canvas>
           <h1><a href="{{site.baseurl}}/">{{site.name}}</a></h1>
-          <h3>{{site.description}}</h3>
-        </div>
+          </a>
       </div>
       <div class="container content">
 
-        <div class="artwork">
-          {{ page.image }}
-          <h1>{{page.title}}</h2>
-        </div>
 
-        <h2>{{page.subtitle}}</h2>
-
-        <div class="scope"></div>
+        {{content}}
 
 
-        {{ content }}
 
-
-        <div class="prev-next">
-        {% if page.previous.url %}
-          <a class="button" href="{{site.baseurl}}{{page.previous.url}}">&laquo;prev</a>
-        {% endif %}
-        {% if page.next.url %}
-          <a class="button" href="{{site.baseurl}}{{page.next.url}}">next&raquo;</a>
-        {% endif %}
-        </div>
 
       </div>
       <div class="footer">

@@ -7,8 +7,15 @@ layout: default
   {% for post in site.one %}
     <article class="post">
 
-      <p><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-      <i>{{ post.subtitle }}</i></p>
+      <a href="{{site.baseurl}}{{post.url}}">
+        <canvas class="art" width="800px", height="200px" data-pixel="10" data-repeat="2000" data-colors="dark-grey,black,grey">
+          {{post.image}}
+        </canvas>
 
+      <p><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      <i>{{ post.subtitle }}</i>
+      </p>
+
+      </a>
     </article>
   {% endfor %}

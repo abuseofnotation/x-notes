@@ -96,7 +96,12 @@ Overthinking it
 
 Love fetish
 
-A virgin's kink
+perverted virgin
+
+permanently lost
+
+A live not yet lived
+
 
 Plot lines
 ===

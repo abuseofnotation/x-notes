@@ -2,4 +2,23 @@
 layout: default
 ---
 
+        <div class="artwork">
+          <canvas class="art" width="800px" height="800px" data-pixel="4" data-colors="gray,olive,black">
+          {{ page.image }}
+          </canvas>
+          <h1>{{page.title}}</h2>
+        </div>
+
+        <h2>{{page.subtitle}}</h2>
+
+        <div class="scope"></div>
 {{ content }}
+
+        <div class="prev-next">
+        {% if page.previous.url %}
+          <a class="button" href="{{site.baseurl}}{{page.previous.url}}">&laquo;prev</a>
+        {% endif %}
+        {% if page.next.url %}
+          <a class="button" href="{{site.baseurl}}{{page.next.url}}">next&raquo;</a>
+        {% endif %}
+        </div>

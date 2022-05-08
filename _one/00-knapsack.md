@@ -3,19 +3,15 @@ title: The knapsack problem
 subtitle: "How to write a book / P and NP / leaving home"
 layout: one
 image: >
-  <canvas class="art" width="800x" height="800px" data-pixel="4" data-colors="gray,darkgray,black">
-    <splasher data-size="2" data-map="cornerProximity" data-params="0.1"></splasher>
-    <splasher data-size="3" data-map="cornerProximity" data-params="0.1"></splasher>
-    <splasher data-size="10" data-map="symmetry" data-params="5000"></splasher>
-    <splasher data-size="20" data-map="symmetry" data-params="7000"></splasher>
-    <splasher data-size="30" data-map="centerProximity" data-params="10"></splasher>
-  </canvas>
-
+    <plasher data-size="50" data-map="constant" data-params="20000"></plasher>
+    <plasher data-size="20" data-map="constant" data-params="1000"></plasher>
+    <plasher data-size="10" data-map="constant" data-params="5"></plasher>
+    <plasher data-size="5" data-map="constant" data-params="5"></plasher>
+    <plasher data-size="2" data-map="constant" data-params="5"></plasher>
+    <plasher data-size="1" data-map="constant" data-params="5"></plasher>
 ---
 
-
-
-The Knapsack problem can be described in the following way (I do realize that this is not the best way to start a book, but bear with me (or don't, it's your choice, obviously), as there will be a sex scene at the end and this part is like suuuper relevant for understanding its context): you have a backpack (knapsack is another word for backpack), with a given volume, say 10 liters (or we can say "10 gallons", if you are American (although, "yuck")), and a bunch of objects that you want to put there, each object with a different volume, say 1 liter, 2 liters, 3 liters and 5 liters and you want to fill it up, leaving no empty space. And you want to devise a general way to determine which objects you want to take, which works in all cases i.e. an algorithm.
+The Knapsack problem can be described in the following way (yes, I do realize that this is not the best way to start a book, but bear with me (or don't, it's your choice, obviously), as it is very iteresting, plus there will be a sex scene at the end and this part is like suuuper relevant for understanding its context): you have a backpack ("knapsack" is another word for backpack), with a given volume, say 10 liters (or we can say "10 gallons", if you are American (although, "yuck")), and a bunch of objects that you want to put there, each object with a different volume, say 1 liter, 2 liters, 3 liters and 5 liters and you want to fill it up, leaving no empty space. And you want to devise a general way to determine which objects you want to take, which works in all cases i.e. an algorithm.
 
 You can, for example, start putting objects from lightest to heaviest - in this case you would put 1 liter and then 2 liters and then 3, but then you wouldn't be able to take the big 5 liter object. You can start from heaviest to lightest, then you would take 5, 3 and 2 and you would fill the 10 liter backpack to its full capacity, so this is a solution, but for this case, but not for others, e.g. if you have a 6 liter object instead of the 1 liter one (so 2, 3, 5, and 6) - in this case, the lightest-first *would* work. Of course, there are more complex solutions that would work in both cases, however, no solution that works in *all* cases have been found so far (except just trying all possible combinations of objects).
 
