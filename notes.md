@@ -103,6 +103,8 @@ permanently lost
 A live not yet lived
 
 
+Permanent confusion
+
 Plot lines
 ===
 
