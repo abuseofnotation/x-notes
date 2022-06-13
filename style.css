@@ -119,4 +119,7 @@ img {
   .footer {
     display: none;
   }
+  .prev-next {
+    display: none;
+  }
 }

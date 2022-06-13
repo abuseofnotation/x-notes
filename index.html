@@ -1,21 +1,21 @@
 ---
 layout: default
 ---
-  <h1>Full contents</h1>
+  <h1>Permanent Confusion</h1>
 
-  <h2>Part One</h2>
+  <article class="chapter-preview">
+    <canvas class="art" width="800px", height="200px" data-pixel="10" data-repeat="2000" data-colors="dark-grey,bl
+ack,grey">
+      {{site.one[0].image}}
+    </canvas>
+  </article>
+
   {% for post in site.one %}
-    <article class="post">
-
+    <article class="chapter-preview">
       <a href="{{site.baseurl}}{{post.url}}">
-        <canvas class="art" width="800px", height="200px" data-pixel="10" data-repeat="2000" data-colors="dark-grey,black,grey">
-          {{post.image}}
-        </canvas>
-
-      <p><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-      <i>{{ post.subtitle }}</i>
-      </p>
-
+        <p><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        <i>{{ post.subtitle }}</i>
+        </p>
       </a>
     </article>
   {% endfor %}
