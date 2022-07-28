@@ -30,8 +30,8 @@ define("utils", ["require", "exports"], function (require, exports) {
 define("lib", ["require", "exports"], function (require, exports) {
     "use strict";
     exports.__esModule = true;
-    exports.fillCanvas = exports.init = exports.pick = exports.intensityMap = exports.random = void 0;
-    var random = function (intensity) { return getRandomInt(intensity) + 1 === intensity; };
+    exports.fillCanvas = exports.init = exports.pick = exports.getRandomInt = exports.intensityMap = exports.random = void 0;
+    var random = function (intensity) { return (0, exports.getRandomInt)(intensity) + 1 === intensity; };
     exports.random = random;
     var intensityMap = function (_a) {
         var width = _a.width, height = _a.height;
@@ -43,7 +43,8 @@ define("lib", ["require", "exports"], function (require, exports) {
     var getRandomInt = function (max) {
         return Math.floor(Math.random() * Math.floor(max));
     };
-    var pick = function (options) { return options[getRandomInt(options.length)]; };
+    exports.getRandomInt = getRandomInt;
+    var pick = function (options) { return options[(0, exports.getRandomInt)(options.length)]; };
     exports.pick = pick;
     var init = function (_a) {
         var width = _a.width, height = _a.height;
@@ -56,7 +57,6 @@ define("lib", ["require", "exports"], function (require, exports) {
         var pixelSize = _a.pixelSize;
         var context = canvas.getContext('2d');
         context.clearRect(0, 0, canvas.width, canvas.height);
-        console.log(grid);
         console.log("Rendering grid", grid);
         grid.forEach(function (row, horizontalIndex) {
             row.forEach(function (blockColor, verticalIndex) {
@@ -86,7 +86,7 @@ define("lib", ["require", "exports"], function (require, exports) {
 define("maps", ["require", "exports", "lib"], function (require, exports, lib_js_1) {
     "use strict";
     exports.__esModule = true;
-    exports.constant = exports.symmetry = exports.verticalSymmetry = exports.horizontalSymmetry = exports.cornerProximity = exports.centerProximity = void 0;
+    exports.constant = exports.symmetry = exports.verticalSymmetry = exports.horizontalSymmetry = exports.diagonals = exports.hallway = exports.cornerProximity = exports.centerProximity = void 0;
     var centerProximityFn = function (intensity, _a) {
         var width = _a.width, height = _a.height;
         return function (x, y) {
@@ -115,6 +115,40 @@ define("maps", ["require", "exports", "lib"], function (require, exports, lib_js
         return (0, lib_js_1.intensityMap)(config)(cornerProximityFn(intensity, config));
     };
     exports.cornerProximity = cornerProximity;
+    var hallwayFn = function (intensity, _a) {
+        if (intensity === void 0) { intensity = 1; }
+        var width = _a.width, height = _a.height;
+        return function (x, y) {
+            var hallwaySize = 3;
+            if (x < height / hallwaySize || x > 2 * (height / hallwaySize)) {
+                return intensity;
+            }
+            else {
+                return 0;
+            }
+        };
+    };
+    var hallway = function (config, intensity) {
+        if (intensity === void 0) { intensity = 4; }
+        return (0, lib_js_1.intensityMap)(config)(hallwayFn(intensity, config));
+    };
+    exports.hallway = hallway;
+    var smallestNumber = function (numbers) { return numbers.reduce(function (a, b) { return a < b ? a : b; }); };
+    var diagonalsFn = function (intensity, _a) {
+        if (intensity === void 0) { intensity = 600; }
+        var width = _a.width, height = _a.height;
+        return function (x, y) {
+            var leftDiagonal = 1 + (intensity * Math.abs(x / width - y / height));
+            var rightDiagonal = 1 + (intensity * Math.abs((width - x) / width - y / height));
+            var num = smallestNumber([leftDiagonal, rightDiagonal]);
+            return Math.floor(num);
+        };
+    };
+    var diagonals = function (config, intensity) {
+        if (intensity === void 0) { intensity = 4; }
+        return (0, lib_js_1.intensityMap)(config)(diagonalsFn(intensity, config));
+    };
+    exports.diagonals = diagonals;
     var createSymmetry = function (map) { return map.map(function (row, i) {
         if (i < map.length / 2) {
             return row;
@@ -147,7 +181,45 @@ define("maps", ["require", "exports", "lib"], function (require, exports, lib_js
     };
     exports.constant = constant;
 });
-define("fillers", ["require", "exports", "lib", "maps"], function (require, exports, lib_js_2, maps) {
+define("sizers", ["require", "exports", "lib"], function (require, exports, lib) {
+    "use strict";
+    exports.__esModule = true;
+    exports.intenso = exports.intensoReversed = exports.random = exports.constant = void 0;
+    var constant = function (config, size) {
+        if (size === void 0) { size = 2000; }
+        return function (_a, cellIntensity) {
+            var x = _a.x, y = _a.y;
+            return lib.random(cellIntensity) ? size : 0;
+        };
+    };
+    exports.constant = constant;
+    var random = function (config, size) {
+        if (size === void 0) { size = 2000; }
+        return function (_a, cellIntensity) {
+            var x = _a.x, y = _a.y;
+            return lib.random(cellIntensity) ? lib.getRandomInt(size) : 0;
+        };
+    };
+    exports.random = random;
+    var minIntensity = 100;
+    var intensoReversed = function (config, size) {
+        if (size === void 0) { size = 2000; }
+        return function (_a, cellIntensity) {
+            var x = _a.x, y = _a.y;
+            return lib.random(cellIntensity) ? size * (cellIntensity / minIntensity) : 0;
+        };
+    };
+    exports.intensoReversed = intensoReversed;
+    var intenso = function (config, size) {
+        if (size === void 0) { size = 2000; }
+        return function (_a, cellIntensity) {
+            var x = _a.x, y = _a.y;
+            return lib.random(cellIntensity) ? size - (size * (cellIntensity / minIntensity)) : 0;
+        };
+    };
+    exports.intenso = intenso;
+});
+define("fillers", ["require", "exports", "lib", "maps", "sizers"], function (require, exports, lib_js_2, maps, sizers) {
     "use strict";
     exports.__esModule = true;
     exports.plasher = exports.splasher = void 0;
@@ -182,34 +254,42 @@ define("fillers", ["require", "exports", "lib", "maps"], function (require, expo
         return empty;
     };
     var verify = function (filler) { return function (_a, config, canvas) {
-        var size = _a.size, colors = _a.colors, map = _a.map, params = _a.params;
+        var size = _a.size, sizeParams = _a.sizeParams, colors = _a.colors, map = _a.map, params = _a.params;
         var theColors = (colors || config.colors).split(',');
         var mapFn = maps[map];
+        var sizeFn = sizers[size];
         if (mapFn === undefined) {
             throw "Undefined map - ".concat(map);
         }
+        else if (sizeFn === undefined) {
+            throw "Undefined sizer - ".concat(size);
+        }
         else {
-            return filler({ size: size, colors: theColors, map: mapFn(config, parseFloat(params)) }, config, canvas);
+            var map_1 = mapFn(config, parseFloat(params));
+            console.log('Filling layer', { size: size, colors: colors, map: map_1, params: params });
+            console.log("Generated intensity map", map_1);
+            return filler({
+                colors: theColors,
+                sizeFn: sizeFn(config, parseFloat(sizeParams)),
+                map: map_1
+            }, config, canvas);
         }
     }; };
     exports.splasher = verify(function (_a, config, canvas) {
-        var size = _a.size, colors = _a.colors, map = _a.map;
+        var sizeFn = _a.sizeFn, colors = _a.colors, map = _a.map;
         map
             .forEach(function (row, x) { return row.forEach(function (cellIntensity, y) {
-            if ((0, lib_js_2.random)(cellIntensity)) {
-                splashSpot(canvas, x, y, (0, lib_js_2.pick)(colors || config.colors), parseInt(size));
-            }
+            splashSpot(canvas, x, y, (0, lib_js_2.pick)(colors || config.colors), parseInt(sizeFn({ x: x, y: y }, cellIntensity)));
         }); });
         return canvas;
     });
     exports.plasher = verify(function (_a, config, canvas) {
-        var size = _a.size, colors = _a.colors, map = _a.map;
+        var sizeFn = _a.sizeFn, colors = _a.colors, map = _a.map;
         map
             .forEach(function (row, x) { return row.forEach(function (cellIntensity, y) {
-            if ((0, lib_js_2.random)(cellIntensity)) {
-                if (empty(canvas, x, y, (0, lib_js_2.pick)(colors || config.colors), parseInt(size))) {
-                    splashSpot(canvas, x, y, (0, lib_js_2.pick)(colors || config.colors), parseInt(size));
-                }
+            var size = sizeFn({ x: x, y: y }, cellIntensity);
+            if (empty(canvas, x, y, (0, lib_js_2.pick)(colors || config.colors), parseInt(size))) {
+                splashSpot(canvas, x, y, (0, lib_js_2.pick)(colors || config.colors), parseInt(size));
             }
         }); });
         return canvas;
@@ -219,16 +299,23 @@ define("render", ["require", "exports", "lib", "fillers"], function (require, ex
     "use strict";
     exports.__esModule = true;
     exports.render = void 0;
-    var render = function (canvas) {
-        var config = Object.assign({}, canvas.dataset);
+    var render = function (canvas, config) {
         config.pixelSize = parseInt(config.pixel);
-        console.log(canvas.width, canvas.height);
         config.width = parseInt(canvas.width) / config.pixelSize;
         config.height = parseInt(canvas.height) / config.pixelSize;
-        console.log(config);
+        console.log("Found canvas ", config);
         var grid = (0, lib_1.init)(config)();
-        Array.prototype.slice.call(canvas.children).forEach(function (layer) {
-            grid = fillers[layer.localName](layer.dataset, config, grid);
+        Array.prototype.slice.call(canvas.children)
+            .forEach(function (layer) {
+            if (config.drawLayerByLayer) {
+                setTimeout(function () {
+                    grid = fillers[layer.localName](layer.dataset, config, grid);
+                    (0, lib_1.fillCanvas)(canvas, config, grid);
+                }, 1);
+            }
+            else {
+                grid = fillers[layer.localName](layer.dataset, config, grid);
+            }
         });
         (0, lib_1.fillCanvas)(canvas, config, grid);
     };
@@ -237,12 +324,17 @@ define("render", ["require", "exports", "lib", "fillers"], function (require, ex
 define("index", ["require", "exports", "render"], function (require, exports, render_1) {
     "use strict";
     exports.__esModule = true;
+    var repeatAll = true;
+    var defaultConfig = {
+        drawLayerByLayer: true
+    };
     var renderStuff = function () {
         Array.prototype.slice.call(document.getElementsByClassName('art')).forEach(function (canvas) {
-            console.log('Rendering canvas with data ', canvas.dataset);
-            (0, render_1.render)(canvas);
-            if (canvas.dataset.repeat) {
-                setInterval(function () { return (0, render_1.render)(canvas); }, parseInt(canvas.dataset.repeat));
+            var config = Object.assign(defaultConfig, canvas.dataset);
+            console.log('Rendering canvas with data ', config);
+            (0, render_1.render)(canvas, config);
+            if (canvas.dataset.repeat || repeatAll) {
+                setInterval(function () { return (0, render_1.render)(canvas, config); }, parseInt(canvas.dataset.repeat || 3000));
             }
         });
     };

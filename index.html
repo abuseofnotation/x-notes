@@ -4,13 +4,13 @@ layout: default
   <h1>Permanent Confusion</h1>
 
   <article class="chapter-preview">
-    <canvas class="art" width="800px", height="200px" data-pixel="10" data-repeat="2000" data-colors="dark-grey,bl
-ack,grey">
-      {{site.one[0].image}}
+    <canvas class="art" width="800px", height="400px" data-pixel="10" data-repeat="2000" data-colors="bl
+ack,pink">
+    <splasher data-size="intenso" data-size-params="5" data-map="diagonals" data-params="200"></splasher>
     </canvas>
   </article>
 
-  {% for post in site.one %}
+  {% for post in site.permanent-confusion%}
     <article class="chapter-preview">
       <a href="{{site.baseurl}}{{post.url}}">
         <p><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>

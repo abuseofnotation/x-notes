@@ -1,16 +1,16 @@
 ---
-title: Really insane
+title: Actually insane
 subtitle: 'Alex / Picking friends / Who am I / How switching places would solve both of our issues'
 layout: one
 image: >
-    <splasher data-size="2" data-map="cornerProximity" data-params="0.1"></splasher>
-    <splasher data-size="3" data-map="cornerProximity" data-params="0.1"></splasher>
-    <splasher data-size="10" data-map="symmetry" data-params="5000"></splasher>
-    <splasher data-size="20" data-map="symmetry" data-params="7000"></splasher>
-    <splasher data-size="30" data-map="centerProximity" data-params="10"></splasher>
+    <splasher data-size="constant" data-size-params="200" data-map="cornerProximity" data-params="0.1"></splasher>
+    <splasher data-size="constant" data-size-params="3" data-map="cornerProximity" data-params="0.1"></splasher>
+    <splasher data-size="constant" data-size-params="10" data-map="symmetry" data-params="5000"></splasher>
+    <splasher data-size="constant" data-size-params="20" data-map="symmetry" data-params="7000"></splasher>
+    <splasher data-size="constant" data-size-params="30" data-map="centerProximity" data-params="10"></splasher>
 ---
 
-<span class="voice-alex">"Call me Alex!"</span>, he said that while standing up just next to the bed he was probably occupying, and smiling with a childish smile. I thought he was over-friendly, but his voice was so loud and firm, that I could not think of an appropriate semi-sarcastic response which I could use to distance myself from him, without being rude (<span class="voice-maxim">"OK", "If you insist"</span>, etc.), so I just shook his hand and started a regular conversation, asking him how old he was, for how long had he been staying there etc. but to my surprise, although still very friendly, he wasn't at all eager to answer my questions, and it even seemed that some of them he did not know the answers of. So unusual were his reactions that for the first few days I had the suspicion that he might be "really insane" - a fact which understandably made me uncomfortable, especially since, given the fact that both of us were under the same circumstances, such categorizations were far from objective. My mind could help but think that probably *I* was insane and he was the normal one, and he seemed insane to me thus.
+<span class="voice-alex">"Call me Alex!"</span>, he said that while standing up just next to the bed he was probably occupying, and smiling with a childish smile. I thought he was over-friendly, but his voice was so loud and firm, that I could not think of an appropriate semi-sarcastic response which I could use to distance myself from him, without being rude (<span class="voice-maxim">"OK", "If you insist"</span>, etc.), so I just shook his hand and started a regular conversation, asking him how old he was, for how long had he been staying there etc. but to my surprise, although still very friendly, he wasn't at all eager to answer my questions, and it even seemed that some of them he did not know the answers of. So unusual were his reactions that for the first few days I had the suspicion that he might be "actually insane" - a fact which understandably made me uncomfortable, especially since, given the fact that both of us were under the same circumstances, such categorizations were far from objective. My mind could help but think that probably *I* was insane and he was the normal one, and he seemed insane to me thus.
 
 
 Alex had a huge scar on his left knee which I noticed immediately when I saw him and which made me want to immediately distance myself from him even more. An urge which did not dissolve even after I learned that he got it in a trivial way (sports incident) and was even strengthened by my realization that it weren't the scar, nor his cheerfulness which crept me out, it was his hair, the way he wanted to shake hands, and all the other numerous ways in which he looked just like me. 

@@ -24,9 +24,9 @@ excerpt_separator: <!--more-->  # you can specify your own separator, of course.
 baseurl: "/x-notes"
 
 collections:
-  one:
+  permanent-confusion:
     output: true
-    permalink: one/:path/
+    permalink: permanent-confusion/:path/
 
 
 #

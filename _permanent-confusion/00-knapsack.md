@@ -3,12 +3,12 @@ title: The knapsack problem
 subtitle: "How to write a book / P and NP / leaving home"
 layout: one
 image: >
-    <plasher data-size="50" data-map="constant" data-params="20000"></plasher>
-    <plasher data-size="20" data-map="constant" data-params="1000"></plasher>
-    <plasher data-size="10" data-map="constant" data-params="5"></plasher>
-    <plasher data-size="5" data-map="constant" data-params="5"></plasher>
-    <plasher data-size="2" data-map="constant" data-params="5"></plasher>
-    <plasher data-size="1" data-map="constant" data-params="5"></plasher>
+    <plasher data-size="constant" data-size-params="50" data-map="constant" data-params="20000"></plasher>
+    <plasher data-size="constant" data-size-params="20" data-map="constant" data-params="1000"></plasher>
+    <plasher data-size="constant" data-size-params="10" data-map="constant" data-params="5"></plasher>
+    <plasher data-size="constant" data-size-params="5" data-map="constant" data-params="5"></plasher>
+    <plasher data-size="constant" data-size-params="2" data-map="constant" data-params="5"></plasher>
+    <plasher data-size="constant" data-size-params="1" data-map="constant" data-params="5"></plasher>
 ---
 
 The Knapsack problem can be described in the following way (yes, I do realize that this is not the best way to start a book, but bear with me (or don't, it's your choice, obviously), as it is very iteresting, plus there will be a sex scene at the end and this part is like suuuper relevant for understanding its context): you have a backpack ("knapsack" is another word for backpack), with a given volume, say 10 liters (or we can say "10 gallons", if you are American (although, "yuck")), and a bunch of objects that you want to put there, each object with a different volume, say 1 liter, 2 liters, 3 liters and 5 liters and you want to fill it up, leaving no empty space. And you want to devise a general way to determine which objects you want to take, which works in all cases i.e. an algorithm.

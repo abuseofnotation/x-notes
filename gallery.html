@@ -1,0 +1,17 @@
+---
+layout: one
+---
+  {% for page in site.permanent-confusion%}
+<div class="chapter">
+          <a href="{{ site.baseurl }}{{ post.url }}">
+        <div class="artwork">
+          <canvas class="art" width="200px" height="250px" data-pixel="1" data-colors="gray,pink,ghostwhite,white,darkblue">
+          {{ page.image }}
+          </canvas>
+          <h1>{{page.title}}</h2>
+        </div>
+          </a>
+        </div>
+
+
+  {% endfor %}
