@@ -86,7 +86,7 @@ define("lib", ["require", "exports"], function (require, exports) {
 define("maps", ["require", "exports", "lib"], function (require, exports, lib_js_1) {
     "use strict";
     exports.__esModule = true;
-    exports.constant = exports.symmetry = exports.verticalSymmetry = exports.horizontalSymmetry = exports.diagonals = exports.hallway = exports.cornerProximity = exports.centerProximity = void 0;
+    exports.circle = exports.triangles = exports.fractal = exports.grandient = exports.horizontalLines = exports.verticalLines = exports.constant = exports.symmetry = exports.verticalSymmetry = exports.horizontalSymmetry = exports.diagonals = exports.hallway = exports.cornerProximity = exports.centerProximity = void 0;
     var centerProximityFn = function (intensity, _a) {
         var width = _a.width, height = _a.height;
         return function (x, y) {
@@ -180,6 +180,57 @@ define("maps", ["require", "exports", "lib"], function (require, exports, lib_js
         return (0, lib_js_1.intensityMap)(config)(function () { return intensity; });
     };
     exports.constant = constant;
+    var verticalLinesFn = function (intensity, _a) {
+        if (intensity === void 0) { intensity = 1; }
+        var width = _a.width, height = _a.height;
+        return function (x, y) {
+            var xP = cornerDistance(x, width);
+            var yP = cornerDistance(y, height);
+            return intensity * Math.sqrt(xP * xP + yP * yP);
+        };
+    };
+    var verticalLines = function (config, intensity) {
+        if (intensity === void 0) { intensity = 100; }
+        return (0, lib_js_1.intensityMap)(config)(function (x, y) { return x % intensity * 5; });
+    };
+    exports.verticalLines = verticalLines;
+    var horizontalLines = function (config, intensity) {
+        if (intensity === void 0) { intensity = 100; }
+        return (0, lib_js_1.intensityMap)(config)(function (x, y) { return y % intensity * 5; });
+    };
+    exports.horizontalLines = horizontalLines;
+    var grandient = function (config, intensity) {
+        if (intensity === void 0) { intensity = 100; }
+        return (0, lib_js_1.intensityMap)(config)(function (x, y) { return (config.height - y) * intensity; });
+    };
+    exports.grandient = grandient;
+    var fractal = function (config, intensity) {
+        if (intensity === void 0) { intensity = 5; }
+        return (0, lib_js_1.intensityMap)(config)(function (x, y) { return ((x ^ y) % intensity === 0) ? 0 : 1; });
+    };
+    exports.fractal = fractal;
+    var triangles = function (config, intensity) {
+        if (intensity === void 0) { intensity = 5; }
+        return (0, lib_js_1.intensityMap)(config)(function (x, y) { return (((x) & (x ^ y)) === 0) ? 1 : 0; });
+    };
+    exports.triangles = triangles;
+    var circle = function (config, radiusCoefficient) {
+        if (radiusCoefficient === void 0) { radiusCoefficient = 4; }
+        return (0, lib_js_1.intensityMap)(config)(function (x, y) {
+            var radius = config.width / (radiusCoefficient / 10);
+            var xCentre = config.width / 2;
+            var yCentre = config.height / 2;
+            var xDistance = Math.abs(x - xCentre);
+            var yDistance = Math.abs(y - yCentre);
+            if (((xDistance * xDistance) + (yDistance * yDistance)) > radius * radius) {
+                return 1;
+            }
+            else {
+                return 0;
+            }
+        });
+    };
+    exports.circle = circle;
 });
 define("sizers", ["require", "exports", "lib"], function (require, exports, lib) {
     "use strict";
@@ -201,12 +252,12 @@ define("sizers", ["require", "exports", "lib"], function (require, exports, lib)
         };
     };
     exports.random = random;
-    var minIntensity = 100;
+    var minIntensityCoefficient = 20;
     var intensoReversed = function (config, size) {
         if (size === void 0) { size = 2000; }
         return function (_a, cellIntensity) {
             var x = _a.x, y = _a.y;
-            return lib.random(cellIntensity) ? size * (cellIntensity / minIntensity) : 0;
+            return lib.random(cellIntensity) ? size * (cellIntensity / (minIntensityCoefficient * size)) : 0;
         };
     };
     exports.intensoReversed = intensoReversed;
@@ -214,7 +265,7 @@ define("sizers", ["require", "exports", "lib"], function (require, exports, lib)
         if (size === void 0) { size = 2000; }
         return function (_a, cellIntensity) {
             var x = _a.x, y = _a.y;
-            return lib.random(cellIntensity) ? size - (size * (cellIntensity / minIntensity)) : 0;
+            return lib.random(cellIntensity) ? size - (size * (cellIntensity / (minIntensityCoefficient * size))) : 0;
         };
     };
     exports.intenso = intenso;
@@ -324,17 +375,31 @@ define("render", ["require", "exports", "lib", "fillers"], function (require, ex
 define("index", ["require", "exports", "render"], function (require, exports, render_1) {
     "use strict";
     exports.__esModule = true;
-    var repeatAll = true;
-    var defaultConfig = {
-        drawLayerByLayer: true
+    var parseBool = function (str) {
+        if (str === "true" || str === true) {
+            return true;
+        }
+        if (str === "false" || str === false) {
+            return false;
+        }
+        if (str === undefined) {
+            return false;
+        }
+        else {
+            throw new TypeError("".concat(str, " is not a bool"));
+        }
     };
+    var defaultConfig = {};
     var renderStuff = function () {
         Array.prototype.slice.call(document.getElementsByClassName('art')).forEach(function (canvas) {
-            var config = Object.assign(defaultConfig, canvas.dataset);
+            console.log('data', canvas.dataset);
+            var config = Object.assign({}, defaultConfig, canvas.dataset);
+            config.repeat = parseInt(config.repeat);
+            config.drawLayerbyLayer = parseBool(config.drawLayerByLayer);
             console.log('Rendering canvas with data ', config);
             (0, render_1.render)(canvas, config);
-            if (canvas.dataset.repeat || repeatAll) {
-                setInterval(function () { return (0, render_1.render)(canvas, config); }, parseInt(canvas.dataset.repeat || 3000));
+            if (config.repeat) {
+                setInterval(function () { return (0, render_1.render)(canvas, config); }, config.repeat);
             }
         });
     };

@@ -1,5 +1,5 @@
 ---
-title: Actually insane
+title: Meeting my roommate
 subtitle: 'Alex / Picking friends / Who am I / How switching places would solve both of our issues'
 layout: one
 image: >

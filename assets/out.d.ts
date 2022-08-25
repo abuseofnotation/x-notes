@@ -29,6 +29,12 @@ declare module "maps" {
     export const verticalSymmetry: (config: any, intensity?: number) => any[];
     export const symmetry: (config: any, intensity?: number) => any;
     export const constant: (config: any, intensity?: number) => any[][];
+    export const verticalLines: (config: any, intensity?: number) => any[][];
+    export const horizontalLines: (config: any, intensity?: number) => any[][];
+    export const grandient: (config: any, intensity?: number) => any[][];
+    export const fractal: (config: any, intensity?: number) => any[][];
+    export const triangles: (config: any, intensity?: number) => any[][];
+    export const circle: (config: any, radiusCoefficient?: number) => any[][];
 }
 declare module "sizers" {
     interface Coordinates {

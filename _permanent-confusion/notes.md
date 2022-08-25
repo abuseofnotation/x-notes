@@ -5,15 +5,11 @@ However, that was harder than I thought, as there were only as much that you can
 
 Still, as I hinted to Ann, it was also better than the *reverse* kind of envy, which I had noticed that many people have, as it didn't force us to do stupid shit just to attain some made up object of desire. It was demotivating, but it was also peacefull, it left us disillusioned, but at least we weren't wasting our time pursuing illusions that were nothing but a facade behind which was the "same ol' shit" that we knew and hated. 
 
-
 I was worried whether I sounded authentic, although what does authenticity even mean when it comes to personalities - we all basically say and do things that we have seen somewhere and then we stick with them if they bring us good results. Perhaps authenticity depends on how important results are for us and to what extend they define our behaviour? That seemed crucial, at least, speaking for myself, I am positive that the importance placed on results was certainly a huge factor for the forming of my personality at school where everyone were obsessed by results, so much so that I sometimes felt that nobody there actually carred about math and that the fact that we were doing math (and not physics, philosophy art etc.) was of secondary importance - the modus operanti of our school could have been the same with any other discipline, and we ourselves (the students) would have been exactly the same people. At that moment, this idea made me sad - we had spent numerous years at perfecting something that we never learned to care about in the first place (although I did and still do care about math). 
 
 "You would be surprised, but I actually *want* to fall. I *want* to get hurt. Without hurt, your body loses contact with the environment and you become lame."
 
 "It is all very limiting. Reality is limiting, living is like participating in a race that there is no way for you to win, but at the same time you have to participate in."
-
-
-And when we (me and Anna) eventually started kissing we did it out of boredom, or at least *I* think that this is why we did it, although I can say the same thing for most things that I do. Her expression was serious as she removed her sweater, as was mine I hope, although it didn't really matter even if it was goofy, as for some reason I didn't really care how I looked to her. Which was weird - if I had known her in my normal life as my classmate or something, I would have probably hopelessly fallen in love with her and would have spent hours just selecting the books that I would "accidentally" drop when I pass near her at the corridor. But at that night when I was already in her bedroom, her lust seemed for me dull, even appauling. The added complexity coming from the dialogues that we had before made her persona too loaded for me to perceive her as just a sex object and my lack of confidence prevented me from turning myself on from her as a real person, with thoughts like "am I fit to be this girl's first lover" rushing down my head and then my brain replaying various memories from my previous (failed) relationships I felt our world (the one me and Dana created) being collapsing into the real one. I wanted to make it stop (I was not sure whether I should do it, but I didn't want for my insecurities to interfere with my decision).
 
 
 Some people like blond girls, I like you.
@@ -30,3 +26,12 @@ The feeling that I ended up experiencing towards her (although also strong) was 
 As I was talking, Anna finally sat closer to me and tried to establish some contact with me, but I blocked her. I tried to convince myself that I didn't care, although if I had known her in my normal life as my classmate or something, I would have probably hopelessly fallen in love with her and would have spent hours just selecting the books that I would "accidentally" drop when I pass near her at the corridor. 
 
 
+
+I was so drawn to my fantasies in my private time, simply because in the rest of the time I was fulfilling other people's fantasies. I got used to it so much that that was all I did. Even with Cathy, I realise, like everybody else does, that I am copying her in every aspect of her life, but it is not so much because I admire her, as they think, as it is because I want *her* to feel that there is someone who understands her, I want her to not feel alone."
+
+But how is that possible, that we cannot get away? Maybe we are just mistaking what quitting means, thinking that we are escaping when we are actually just walking the same old road, removing everything else but that which is our problem. Because the problem is our blind spot. Because we identify this problem with ourselves.
+
+Because if the point of sex is cumming, then what is the point of love, aside from getting your heart broken.
+
+
+that were twisting their minds, making them delusional with those weird ideas like that they posess knowledge that the others didn't, while all they really did was concentrating at one detail, at a mere leaf falling from the crown of a gigantic three and insisting that this very leaf represented the tree in a way so complete that all they needed to do was to understand the leaf, and they will know more about the tree than the person who climbed it. 

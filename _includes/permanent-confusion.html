@@ -1,0 +1,18 @@
+  <h1>Permanent Confusion</h1>
+
+  <article class="chapter-preview">
+    <canvas class="art" width="800px", height="400px" data-pixel="4" data-repeat="2000" data-colors="black,pink,grey">
+    <splasher data-size="intensoReversed" data-size-params="50" data-map="diagonals" data-params="1000"></splasher>
+    </canvas>
+  </article>
+
+  {% for post in site.permanent-confusion%}
+    <article class="chapter-preview">
+      <a href="{{site.baseurl}}{{post.url}}">
+        <p><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        <i>{{ post.subtitle }}</i>
+        </p>
+      </a>
+    </article>
+  {% endfor %}
+  <a href="{{site.baseurl}}/permanent-confusion-full"><i>Full text (printable version)</i></a>

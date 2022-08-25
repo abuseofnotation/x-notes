@@ -88,6 +88,10 @@ h2 {
 .content {
 }
 
+.chapter-underline {
+  background-color: pink;
+}
+
 a {
   color: black;
   cursor: pointer;
@@ -109,7 +113,7 @@ a {
 }
 
 .chapter p:nth-child(odd) {
-  transform: rotateZ(2deg);
+  /*transform: rotateZ(1deg); */
   border-image: linear-gradient(to bottom, white, black, white) 1;
 }
 .chapter p:nth-child(even) {
@@ -144,9 +148,8 @@ a {
 }
 
  [class*="voice"] {
-  font-size: 35px;
-  line-height: 0.8;
-  margin: 15px;
+  /* display:block; */
+  font-size: 25px;
   font-family: 'generic';
   color: blue;
  }
@@ -163,6 +166,8 @@ a {
 }
 .voice-alex {
   font-family: 'alex';
+  font-size: 18px;
+  color: green;
 }
 
 @font-face {
@@ -174,7 +179,7 @@ a {
 
 .voice-maxim {
   font-family: 'maxim';
-  font-size: 20px;
+  color: black;
 }
 
 
