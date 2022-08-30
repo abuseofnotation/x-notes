@@ -1,6 +1,6 @@
 ---
 title: What are we in for
-subtitle: Anna's kinky alter ego / Marijuanna
+subtitle: Anna's kinky alter ego / Marijuana
 layout: one
 image: >
     <splasher data-size="constant" data-size-params="1" data-colors="black" data-map="fractal" data-params="5"></splasher>
