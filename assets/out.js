@@ -1,5 +1,15 @@
 "use strict";
-console.log('hello');
+var __assign = (this && this.__assign) || function () {
+    __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
 define("utils", ["require", "exports"], function (require, exports) {
     "use strict";
     exports.__esModule = true;
@@ -273,7 +283,7 @@ define("sizers", ["require", "exports", "lib"], function (require, exports, lib)
 define("fillers", ["require", "exports", "lib", "maps", "sizers"], function (require, exports, lib_js_2, maps, sizers) {
     "use strict";
     exports.__esModule = true;
-    exports.plasher = exports.splasher = void 0;
+    exports.layer = exports.plasher = exports.splasher = void 0;
     var splashSpot = function (canvas, x, y, color, size) {
         if (size === void 0) { size = 3; }
         var indexInRange = function (i, y) { return (i > (y - size)) && (i < (y + size)); };
@@ -304,8 +314,8 @@ define("fillers", ["require", "exports", "lib", "maps", "sizers"], function (req
         });
         return empty;
     };
-    var verify = function (filler) { return function (_a, config, canvas) {
-        var size = _a.size, sizeParams = _a.sizeParams, colors = _a.colors, map = _a.map, params = _a.params;
+    var verify = function (filler) { return function (layer, config, canvas) {
+        var _a = layer.dataset, size = _a.size, sizeParams = _a.sizeParams, colors = _a.colors, map = _a.map, params = _a.params;
         var theColors = (colors || config.colors).split(',');
         var mapFn = maps[map];
         var sizeFn = sizers[size];
@@ -329,7 +339,9 @@ define("fillers", ["require", "exports", "lib", "maps", "sizers"], function (req
     exports.splasher = verify(function (_a, config, canvas) {
         var sizeFn = _a.sizeFn, colors = _a.colors, map = _a.map;
         map
-            .forEach(function (row, x) { return row.forEach(function (cellIntensity, y) {
+            .forEach(function (row, _x) { return row.forEach(function (cellIntensity, _y) {
+            var x = _x + (config.x || 0);
+            var y = _y + (config.y || 0);
             splashSpot(canvas, x, y, (0, lib_js_2.pick)(colors || config.colors), parseInt(sizeFn({ x: x, y: y }, cellIntensity)));
         }); });
         return canvas;
@@ -337,7 +349,9 @@ define("fillers", ["require", "exports", "lib", "maps", "sizers"], function (req
     exports.plasher = verify(function (_a, config, canvas) {
         var sizeFn = _a.sizeFn, colors = _a.colors, map = _a.map;
         map
-            .forEach(function (row, x) { return row.forEach(function (cellIntensity, y) {
+            .forEach(function (row, _x) { return row.forEach(function (cellIntensity, _y) {
+            var x = _x + (config.x || 0);
+            var y = _y + (config.y || 0);
             var size = sizeFn({ x: x, y: y }, cellIntensity);
             if (empty(canvas, x, y, (0, lib_js_2.pick)(colors || config.colors), parseInt(size))) {
                 splashSpot(canvas, x, y, (0, lib_js_2.pick)(colors || config.colors), parseInt(size));
@@ -345,29 +359,52 @@ define("fillers", ["require", "exports", "lib", "maps", "sizers"], function (req
         }); });
         return canvas;
     });
+    var toNumber = function (quantity, globalQuantity) {
+        if (quantity) {
+            if (/px/.test(quantity)) {
+                return parseInt(quantity);
+            }
+            else if (/%/.test(quantity)) {
+                return globalQuantity * parseFloat(quantity) / 100;
+            }
+            else {
+                throw new TypeError("Invalid quantity ".concat(quantity));
+            }
+        }
+        else {
+            return globalQuantity;
+        }
+    };
+    var layer = function (canvas, parentConfig, grid) {
+        var config = __assign(__assign({}, parentConfig), { width: toNumber(canvas.getAttribute("width"), parentConfig.width), height: toNumber(canvas.getAttribute("height"), parentConfig.height), x: toNumber((canvas.getAttribute("x") || "0px"), parentConfig.width) + (parent.x || 0), y: toNumber((canvas.getAttribute("y") || "0px"), parentConfig.height) + (parent.y || 0) });
+        console.log(parent.x || 0);
+        console.log(toNumber((canvas.getAttribute("x") || "0px"), parentConfig.width) + parent.x || 0);
+        console.log("Found layer ", config);
+        Array.prototype.slice.call(canvas.children)
+            .forEach(function (layer) {
+            var filler = fillers[layer.localName];
+            if (filler === undefined) {
+                throw "Invalid filler ".concat(layer.localName);
+            }
+            else {
+                grid = filler(layer, config, grid);
+            }
+        });
+        return grid;
+    };
+    exports.layer = layer;
+    var fillers = { splasher: exports.splasher, plasher: exports.plasher, layer: exports.layer };
 });
 define("render", ["require", "exports", "lib", "fillers"], function (require, exports, lib_1, fillers) {
     "use strict";
     exports.__esModule = true;
     exports.render = void 0;
     var render = function (canvas, config) {
-        config.pixelSize = parseInt(config.pixel);
-        config.width = parseInt(canvas.width) / config.pixelSize;
-        config.height = parseInt(canvas.height) / config.pixelSize;
-        console.log("Found canvas ", config);
-        var grid = (0, lib_1.init)(config)();
-        Array.prototype.slice.call(canvas.children)
-            .forEach(function (layer) {
-            if (config.drawLayerByLayer) {
-                setTimeout(function () {
-                    grid = fillers[layer.localName](layer.dataset, config, grid);
-                    (0, lib_1.fillCanvas)(canvas, config, grid);
-                }, 1);
-            }
-            else {
-                grid = fillers[layer.localName](layer.dataset, config, grid);
-            }
-        });
+        config.width = parseInt(canvas.width);
+        config.height = parseInt(canvas.height);
+        config.pixelSize = 1;
+        var grid = fillers.layer(canvas, config, (0, lib_1.init)(config)());
+        console.log('config', config);
         (0, lib_1.fillCanvas)(canvas, config, grid);
     };
     exports.render = render;
@@ -389,7 +426,9 @@ define("index", ["require", "exports", "render"], function (require, exports, re
             throw new TypeError("".concat(str, " is not a bool"));
         }
     };
-    var defaultConfig = {};
+    var defaultConfig = {
+        drawLayerByLayer: true
+    };
     var renderStuff = function () {
         Array.prototype.slice.call(document.getElementsByClassName('art')).forEach(function (canvas) {
             console.log('data', canvas.dataset);
