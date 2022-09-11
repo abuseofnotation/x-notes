@@ -169,7 +169,7 @@ define("maps", ["require", "exports", "lib"], function (require, exports, lib_js
     }); };
     var horizontalSymmetry = function (config, intensity) {
         if (intensity === void 0) { intensity = 2000; }
-        var map = (0, lib_js_1.intensityMap)(config)(function () { return (0, lib_js_1.random)(intensity) ? 2 : undefined; });
+        var map = (0, lib_js_1.intensityMap)(config)(function () { return (0, lib_js_1.random)(intensity) ? 1 : undefined; });
         return createSymmetry(map);
     };
     exports.horizontalSymmetry = horizontalSymmetry;
@@ -201,12 +201,12 @@ define("maps", ["require", "exports", "lib"], function (require, exports, lib_js
     };
     var verticalLines = function (config, intensity) {
         if (intensity === void 0) { intensity = 100; }
-        return (0, lib_js_1.intensityMap)(config)(function (x, y) { return x % intensity * 5; });
+        return (0, lib_js_1.intensityMap)(config)(function (x, y) { return x % (config.width / intensity) * 5; });
     };
     exports.verticalLines = verticalLines;
     var horizontalLines = function (config, intensity) {
         if (intensity === void 0) { intensity = 100; }
-        return (0, lib_js_1.intensityMap)(config)(function (x, y) { return y % intensity * 5; });
+        return (0, lib_js_1.intensityMap)(config)(function (x, y) { return y % (config.height / intensity) * 5; });
     };
     exports.horizontalLines = horizontalLines;
     var grandient = function (config, intensity) {

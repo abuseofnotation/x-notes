@@ -1,5 +1,5 @@
 ---
-title: In Anna's room
+title: The sleepover
 subtitle:  Anna's childish behavior / Critics / Boring robots / Adoring Anna
 layout: one
 quote: ...and criticizing someone for being immature is the worst type of criticism there is, as with it you are basically saying that they are not as huge of a critic as you (or that they have too much desire for happiness perhaps?)

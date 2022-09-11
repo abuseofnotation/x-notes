@@ -1,18 +1,19 @@
 ---
-title: The sleepover
+title: The sleepover contd
 subtitle:  Irony / If I was a soldier / The inherent limitation of choice
 layout: one
 quote: ...no matter what choice did I make, would always be unsure about it, and I would always be looking forward to an opportunity to change it even for a second, not so much because I regretted the choice itself, but because I disliked *the fact that I have to make it*, the fact that I could only be at one place at one time, to be one person, leading one and only one life.
 
 image: >
-    <layer x="20%" width="50%" height="90%">
-      <splasher data-size="constant" data-size-params="20" data-map="symmetry" data-params="700"></splasher>
-    </layer>
+    <splasher data-size="constant" data-size-params="200" data-map="cornerProximity" data-params="0.1"></splasher>
+    <splasher data-size="constant" data-size-params="3" data-map="cornerProximity" data-params="0.1"></splasher>
+    <splasher data-size="constant" data-size-params="10" data-map="symmetry" data-params="5000"></splasher>
+    <splasher data-size="constant" data-size-params="20" data-map="symmetry" data-params="7000"></splasher>
+    <splasher data-size="constant" data-size-params="30" data-map="centerProximity" data-params="10"></splasher>
+
 
 ---
 
-    <splasher data-size="constant" data-size-params="30" data-map="centerProximity" data-params="10"></splasher>
-    <splasher data-size="constant" data-size-params="10" data-map="symmetry" data-params="5000"></splasher>
 
 
 

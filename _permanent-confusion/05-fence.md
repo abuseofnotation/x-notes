@@ -3,9 +3,10 @@ title: Fence
 subtitle: 'Outside / Not being punished / Discreet and continuous models'
 layout: one
 image: >
-    <splasher data-size="intenso" data-size-params="10" data-map="grandient" data-params="1"></splasher>
-    <splasher data-size="intenso" data-size-params="5" data-map="horizontalLines" data-params="100"></splasher>
-    <splasher data-size="intenso" data-size-params="5" data-map="verticalLines" data-params="40"></splasher>
+    <splasher data-size="constant" data-size-params="1" data-colors="black" data-map="fractal" data-params="111"></splasher>
+    <splasher data-size="random" data-size-params="20" data-map="constant" data-params="1000"></splasher>
+    <splasher data-size="intenso" data-size-params="5" data-map="horizontalLines" data-params="4"></splasher>
+    <splasher data-size="intenso" data-size-params="5" data-map="verticalLines" data-params="5"></splasher>
 ---
 
 Anna went immediately to Alex without ever paying attention to her friend, who were sitting right in his lap, and leaned close towards him,  <span class="voice-anna">"I need a cigarette!" </span>she said, disregarding, or even enjoying the fact that Catherine would have to stand from her comfortable position at the lap of her boyfriend order for him to pull out his pack, and when went on shouting and waving her hands, making me feel at loss when I remembered our previous, very pleasant conversation. There was something very theatrical in her gesture, and it seemed like she was doing it regularly judging from the way in which Alex immediately proceeded to give her what she wanted while Catherine just ignored her with a grimace that showed boredom and turned to me instead,  <span class="voice-cathy">"Ah, Alex, you brought a friend, hi Alex's friend," </span>she said and then asked me for my name, at which point I decided to tell them the story about how I was grounded for painting my name on my room's door when I was little and how I then made it to one big "X" sign.  <span class="voice-cathy">"'X', that sounds a bit lame, the symbol is too overloaded with meaning, don't you think?" </span>Catherine said when she heard the ending. But before I had time to clarify that my point wasn't to adopt the letter as a nickname Anna entered the conversation:  <span class="voice-anna">"You have no taste, it's awesome!" </span>with which, although she said it just to annoy her friend, cemented this nickname for a long time.
