@@ -4,10 +4,9 @@ subtitle:  Anna and Cathy / Trying to be like other people / Sleeping with Anna
 quote: Didn't *you* want to kill yourself at some point? And if yes, than  what made you hesitant to do it? Your strong will to live? Or just simple fear?
 layout: one
 image: >
-    <splasher data-size="constant" data-size-params="1" data-colors="black" data-map="fractal" data-params="111"></splasher>
-    <splasher data-size="random" data-size-params="20" data-map="constant" data-params="1000"></splasher>
-    <splasher data-size="intenso" data-size-params="5" data-map="horizontalLines" data-params="200"></splasher>
-    <splasher data-size="intenso" data-size-params="5" data-map="verticalLines" data-params="80"></splasher>
+    <splasher data-size="intenso" data-size-params="10" data-map="grandient" data-params="1"></splasher>
+    <splasher data-size="intenso" data-size-params="5" data-map="horizontalLines" data-params="4"></splasher>
+    <splasher data-size="intenso" data-size-params="5" data-map="verticalLines" data-params="5"></splasher>
 ---
 
 <span class="voice-anna">"OK, I think I am ready to sleep with you!"</span>

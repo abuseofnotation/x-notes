@@ -4,11 +4,11 @@ subtitle: 'This or nothing / The moon / Fractals / Me and Alex / Explanations / 
 layout: one
 image: >
     <splasher data-size="constant" data-size-params="50" data-map="constant" data-params="2000"></splasher>
-    <splasher data-size="random" data-colors="black" data-size-params="5"  data-map="triangles" data-params="3"></splasher>
-    <splasher data-size="constant" data-size-params="1"  data-map="triangles" data-params="3"></splasher>
+    <layer height="50%" y="25%" x="25%">
+      <splasher data-size="random" data-colors="black" data-size-params="5"  data-map="triangles" data-params="3"></splasher>
+      <splasher data-size="constant" data-size-params="1"  data-map="triangles" data-params="3"></splasher>
+    </layer>
 ---
-<splasher data-size="constant" data-colors="black" data-size-params="1"  data-map="triangles" data-params="3"></splasher>
-<splasher data-size="constant" data-size-params="1" data-map="circle" data-params="20"></splasher>
 
 
 

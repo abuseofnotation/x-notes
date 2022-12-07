@@ -1,10 +1,41 @@
   <h1>Permanent Confusion</h1>
 
   <article class="chapter-preview">
-    <canvas class="art" width="800px", height="400px" data-pixel="4" data-repeat="2000" data-colors="black,pink,grey">
+    <canvas class="art" width="200px", height="100px" data-pixel="1" data-repeat="2000" data-colors="black,pink,grey">
     <splasher data-size="intensoReversed" data-size-params="50" data-map="diagonals" data-params="1000"></splasher>
     </canvas>
   </article>
+
+  <div id="quotes">
+  {% for post in site.permanent-confusion%}
+    {% if post.quote %}
+    <blockquote class="quote">
+        {{post.quote}}
+        <p>from <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        </p>
+    </blockquote>
+    {% endif %}
+  {% endfor %}
+  </div>
+
+  <script>
+    var getRandomInt = (max) => {
+      return Math.floor(Math.random() * Math.floor(max));
+    }
+    var quote = document.getElementById('quotes')
+    var quotesArray = Array.prototype.slice.call(quote.children)
+
+    var quoteIndex = getRandomInt(quotesArray.length)
+    console.log({quoteIndex, quotesArray})
+    quotesArray.forEach((quote, i) => {
+          console.log({quoteIndex, quote, i})
+          if (i === quoteIndex) {
+            quote.setAttribute("style", 'display:block')
+            } else {
+            quote.setAttribute("style", 'display:none')
+            }
+    })
+  </script>
 
   {% for post in site.permanent-confusion%}
     <article class="chapter-preview">

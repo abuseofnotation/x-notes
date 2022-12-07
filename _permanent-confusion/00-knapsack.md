@@ -13,15 +13,12 @@ image: >
 ---
 
 > The way you can go
->
 > isn’t the real way.
->
 > The name you can say
->
 > isn’t the real name. 
 
 
-The Knapsack problem can be described in the following way (yes, I do realize that this is not the best way to start a book, but bear with me (or don't, it's your choice, obviously), as it is very interesting, plus there will be a sex scene at the end and this part is like suuuper relevant for understanding its context): you have a backpack ("knapsack" is another word for backpack), with a given volume, say 10 liters (or we can say "10 gallons", if you are American (although, "yuck")), and a bunch of objects that you want to put there, each object with a different volume, say 1 liter, 2 liters, 3 liters and 5 liters and you want to fill it up, leaving no empty space. And you want to devise a general way to determine which objects you want to take, which works in all cases i.e. an algorithm.
+The Knapsack problem can be described in the following way (and yes, I do realize that this is not the best way to start a book, but bear with me (or don't, it's your choice, obviously), as the problem is very interesting, plus there will be a sex scene at the end and this part is, like, suuuper relevant for understanding its context): you have a backpack ("knapsack" is another word for backpack), with a given volume, say 10 liters (or we can say "10 gallons", if you are American (although, "yuck")), and a bunch of objects that you want to put there, each object with a different volume, say 1 liter, 2 liters, 3 liters and 5 liters and you want to fill it up, leaving no empty space. And you want to devise a general way to determine which objects you want to take, which works in all cases i.e. an algorithm.
 
 You can, for example, start putting objects from lightest to heaviest - in this case you would put 1 liter and then 2 liters and then 3, but then you wouldn't be able to take the big 5 liter object. You can start from heaviest to lightest, then you would take 5, 3 and 2 and you would fill the 10 liter backpack to its full capacity, so this is a solution, but for this case, but not for others, e.g. if you have a 6 liter object instead of the 1 liter one (so 2, 3, 5, and 6) - in this case, the lightest-first *would* work. Of course, there are more complex solutions that would work in both cases, however, no solution that works in *all* cases have been found so far (except just trying all possible combinations of objects).
 
