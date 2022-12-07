@@ -1,4 +1,3 @@
----
 title: Us and them 
 subtitle: The uncut book pages / Envy
 layout: one
