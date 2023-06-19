@@ -1,11 +1,15 @@
 ---
 title: Sex
-Anna's fantasy / What makes us weird / The establishment and being "normal"
+subtitle Anna's fantasy / What makes us weird / The establishment and being normal
 layout: one
 quote: "Perhaps the distinction between the vanilla and the perverse was just an invention of the established. Perhaps it was there just to enable some people to obscure the choices that they are making and to make it seem like they are making no choice at all, that they did what they did just because that's the way it is done in principle."
 image: >
-    <splasher data-size="intenso" data-size-params="15" data-map="verticalSymmetry" data-params="600"></splasher>
-    <splasher data-size="intenso" data-size-params="5" data-map="horizontalLines" data-params="4"></splasher>
+
+      <splasher data-size="constant" data-size-params="30" data-map="centerProximity" data-params="10"></splasher>
+      <splasher data-size="constant" data-size-params="10" data-map="symmetry" data-params="5000"></splasher>
+    <layer x="20%" width="40%" height="90%">
+      <splasher data-size="constant" data-size-params="20" data-map="symmetry" data-params="700"></splasher>
+    </layer>
 ---
 
 When she came back, Anna/Dana had a transparent blouse that from which her nipples were clearly visible and the short miniskirt with panties of different color. <span class="voice-anna"> "So what do you like... in sex?"</span> she said the last part after I sat silent for a few seconds (although her looks provided enough context for her question, even for me. <span class="voice-maxim">"The... Part... Where... I... Cum..."</span>, I said and I became silent again, realizing that what I said sounded like a stupid joke, although I was actually trying to be serious. "OK. For example... What's your favorite category of porn sites?" she asked, and when I began blushing she began encouraging me "Yes, tell me what are you thinking about right *now*?"

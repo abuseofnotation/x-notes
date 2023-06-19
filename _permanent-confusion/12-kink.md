@@ -9,12 +9,6 @@ image: >
     <splasher data-size="intenso" data-size-params="5" data-map="horizontalLines" data-params="2"></splasher>
 ---
 
-      <splasher data-size="constant" data-size-params="30" data-map="centerProximity" data-params="10"></splasher>
-      <splasher data-size="constant" data-size-params="10" data-map="symmetry" data-params="5000"></splasher>
-    <layer x="20%" width="40%" height="90%">
-      <splasher data-size="constant" data-size-params="20" data-map="symmetry" data-params="700"></splasher>
-    </layer>
-
 
 At first I thought Anna was going to make *me* disappear from her world as well, as soon as I made a mistake or two, like for example in the beginning of the evening when I tried to talk to her about my favorite movies (a topic that I always brought up when I had nothing else to talk about), or shortly after, when she talked me about her relationship with her parents when my initial reaction then was to try to make some weird parallel between it and the relationship that I had with *my* parents and to try to resolve her issues by means of it, not because I really believed I can do it (my relation with my parents wasn't that good anyways), but because I thought that that were the only useful direction to which I could take this conversation. In hindsight, I was obviously way off --- I didn't realize that all my solutions were to her just new problems, that every advice was criticism, and that every attempt to get close to her actually bought me farther away. 
 
