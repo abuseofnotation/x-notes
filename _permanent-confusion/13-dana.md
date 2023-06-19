@@ -1,6 +1,6 @@
 ---
 title: Sex
-subtitle: Anna's fantasy / What makes us weird / The establishment and being normal
+subtitle: "Anna's fantasy / What makes us weird / The establishment and being normal"
 layout: one
 quote: "Perhaps the distinction between the vanilla and the perverse was just an invention of the established. Perhaps it was there just to enable some people to obscure the choices that they are making and to make it seem like they are making no choice at all, that they did what they did just because that's the way it is done in principle."
 
