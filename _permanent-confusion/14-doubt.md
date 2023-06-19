@@ -2,7 +2,7 @@
 title: Cigarettes
 subtitle: Alex's good night sleep / About me and Alex again / Sex and love / The proof that P does not equal NP
 layout: one
-quote: "Perhaps the distinction between the vanilla and the perverse was just an invention of the established. Perhaps it was there just to enable some people to obscure the choices that they are making and to make it seem like they are making no choice at all, that they did what they did just because that's the way it is done in principle."
+quote: "If Alex, was in a similar situation, he would drive directly to her town as, unlike me, he was pursuing a clear and obtainable goal, which is a prerequisite for achieving something, but also a way to *limit* what you can achieve."
 image: >
     <splasher data-size="constant" data-size-params="1" data-map="symmetry" data-params="5000"></splasher>
 
