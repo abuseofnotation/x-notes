@@ -133,7 +133,7 @@ a {
   border-image: linear-gradient(to bottom, white, black, white) 1;
 }
 .chapter p:nth-child(even) {
-  transform: rotateZ(-1deg);
+  transform: rotateZ(-2deg);
   border-image: linear-gradient(to bottom, grey, white) 1;
 }
 
