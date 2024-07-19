@@ -1,4 +1,7 @@
+In the following days, Anna discarded all my attempts to establish any kind of connection with her. At that time I thought that she had decided that she didn't like me and that this was her way of showing me that she didn't want to be in a relatioship with me, or, what I hoped for, that she liked me so much that she got afraid of the emotional commitment that our first date entailed, but later I learned that the reality of it was (as I would probably could have realized right away, if I wasn't so damn self-centered) that she just didn't know how to continue the game. That, although I knew her for just a few days, I had already reached the end stage of the relationship with her. I didn't know that I had already walked through every path of the neat small park that was her persona. And therefore there was no way for her to lead me to a route that wouldn't feel for me as if we are rolling in circles, no route that would distract me enough to so I don't see what the rest of her
+
 We are *supposed* to care about everyting that happens to us and the people who are close to us. Everything we experience, it is *supposed* to matter somehow. Or at least that is what we are told and that is what we keep telling ourselves, this is what we keep convincing ourselves, with our gestures to one another and in general through the act of just being us. It is all supposed to be significant, it is supposed to bring us fullfillment and joy. 
+
 
 But sometimes it doesn't, sometimes we feel like life is a lie, and not just *our* life I mean, feeling that our individual life is a lie, feeling like we are in a void is actually good (we are told), because it makes us trive, because it helps us realize what we want, but life in general. Sometimes we feel that the void is all-encompassing and that there is nothing to hold on to, in order to escape. And at these times our normal worldview, that I described above tells us that there is nothing left to do  but to follow the figurative suicide that our situation entails with a literal one. 
 
@@ -10,6 +13,7 @@ I don’t aim to write the best book ever. If I write a book that is too good it
 
 The pressure to say things that are universally valid, the thought itself cannot be universally valid, but the mode of thinking can, and often is
 But I’d rather manifest my books incompleteness than try to make it complete
+
 
 My parents react to my relationship with Anna
 

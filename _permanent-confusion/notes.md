@@ -11,7 +11,6 @@ I was worried whether I sounded authentic, although what does authenticity even 
 
 "It is all very limiting. Reality is limiting, living is like participating in a race that there is no way for you to win, but at the same time you have to participate in."
 
-
 Some people like blond girls, I like you.
 
 I want to unwrap you like a present
@@ -24,7 +23,6 @@ The feeling that I ended up experiencing towards her (although also strong) was 
 
 
 As I was talking, Anna finally sat closer to me and tried to establish some contact with me, but I blocked her. I tried to convince myself that I didn't care, although if I had known her in my normal life as my classmate or something, I would have probably hopelessly fallen in love with her and would have spent hours just selecting the books that I would "accidentally" drop when I pass near her at the corridor. 
-
 
 
 I was so drawn to my fantasies in my private time, simply because in the rest of the time I was fulfilling other people's fantasies. I got used to it so much that that was all I did. Even with Cathy, I realise, like everybody else does, that I am copying her in every aspect of her life, but it is not so much because I admire her, as they think, as it is because I want *her* to feel that there is someone who understands her, I want her to not feel alone."
